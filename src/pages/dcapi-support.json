@@ -4,7 +4,7 @@
     {
       "platform": { "name": "Android", "icon": "fa-brands fa-android" },
       "support": {
-        "Chrome": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-flask-vial", "text": "Issuance", "color": "grey", "iconPosition": "left", "superscript": "4" }],
+        "Chrome": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-check-circle", "text": "Issuance (v155+)", "color": "green", "iconPosition": "left" }],
         "Edge": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green" }, { "icon": "fa-solid fa-flask-vial", "text": "Issuance (v141+)", "color": "grey", "superscript": "4" }],
         "Firefox": [{ "icon": "fa-solid fa-code-pull-request", "text": "In Development", "color": "grey" }],
         "Safari": [{ "text": "n/a" }]
@@ -31,7 +31,7 @@
     {
       "platform": { "name": "macOS", "icon": "fa-brands fa-apple" },
       "support": {
-        "Chrome": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-flask-vial", "text": "Issuance (v141+)", "color": "grey", "iconPosition": "left", "superscript": "4"}],
+        "Chrome": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-check-circle", "text": "Issuance (v155+)", "color": "green", "iconPosition": "left" }],
         "Edge": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-flask-vial", "text": "Issuance (v141+)", "color": "grey", "iconPosition": "left", "superscript": "4" }],
         "Firefox": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v149+)", "color": "green", "iconPosition": "left", "superscript": "3" }],
         "Safari": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (OS 26+)", "color": "green", "iconPosition": "left", "superscript": "3" }, { "icon": "fa-solid fa-question", "text": "Issuance: Unknown", "color": "grey", "iconPosition": "left" }]
@@ -40,7 +40,7 @@
     {
       "platform": { "name": "Ubuntu", "icon": "fa-brands fa-ubuntu" },
       "support": {
-        "Chrome": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-flask-vial", "text": "Issuance", "color": "grey", "iconPosition": "left", "superscript": "4" }],
+        "Chrome": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-check-circle", "text": "Issuance (v155+)", "color": "green", "iconPosition": "left" }],
         "Edge": [{ "icon": "fa-solid fa-code-pull-request", "text": "Planned", "color": "grey" }],
         "Firefox": [{ "icon": "fa-solid fa-code-pull-request", "text": "In Development", "color": "grey" }],
         "Safari": [{ "text": "n/a" }]
@@ -49,7 +49,7 @@
     {
       "platform": { "name": "Windows", "icon": "fa-brands fa-windows" },
       "support": {
-        "Chrome": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-flask-vial", "text": "Issuance", "color": "grey", "iconPosition": "left", "superscript": "4" }],
+        "Chrome": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-check-circle", "text": "Issuance (v155+)", "color": "green", "iconPosition": "left" }],
         "Edge": [{ "icon": "fa-solid fa-check-circle", "text": "Presentation (v141+)", "color": "green", "iconPosition": "left" }, { "icon": "fa-solid fa-flask-vial", "text": "Issuance", "color": "grey", "iconPosition": "left", "superscript": "4" }],
         "Firefox": [{ "icon": "fa-solid fa-code-pull-request", "text": "In Development", "color": "grey", "superscript": "5" }],
         "Safari": [{ "text": "n/a" }]
