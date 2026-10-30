@@ -8,7 +8,9 @@ This page focuses on the relationship and layers between entities and components
 
 ## Layers
 
-Verification and issuance requests from a website begin with a JavaScript call to the Digital Credentials API. The browser then sends this request to the device's operating system where the credential selector is invoked. Once a user selects a credential, its credential manager is activated to complete the request.
+Verification and issuance requests from a website begin with a JavaScript call to the Digital Credentials API.
+The browser then sends this request to the device's operating system where the credential selector is invoked.
+Once a user selects a credential, its credential manager is activated to complete the request.
 
 > Website >> Browser >> OS >> Credential Manager >> OS >> Browser >> Website
 
@@ -35,19 +37,18 @@ Some browsers may implement the cross-device transport protocol (FIDO CTAP 2.2) 
 
 ## Support across entities and layers
 
-The Digital Credentials API is protocol agnostic, meaning it does not normatively define nor restrict which protcols can be used, giving developers the flexibility to work with a wide range of protocols, from existing standards to new ones that emerge.
+The Digital Credentials API currently supports two presentation protocols: OpenID for Verifiable Presentations 1.0 (with 3 variants) and ISO 18013-7 Annex C.
+It's important to understand that the behavior of the API can vary depending on the specific implementation (for example, within a browser or an operating system).
+A particular implementation may support one protocol and not the other.
 
-However, it's important to understand that the behavior of the API can vary depending on the specific implementation (for example, within a browser or an operating system). A particular implementation may only support a limited set of protocols.
-
-Each entity/layer ultimately needs to pass the request down to the next entity/layer, ending at the credential manager. The table below documents whether each entity must support a given component.
+Each entity/layer ultimately needs to pass the request down to the next entity/layer, ending at the credential manager.
+The table below documents whether each entity must support a given component.
 
 | **ENTITY**         | **CRED FORMAT** | **PROTOCOL** |
 |--------------------|-----------------|--------------|
 | Verifier / Issuer  |       Yes       | Yes          |
-| Browser            |        No       | Optional     |
+| Browser            |        No       | Yes          |
 | Operating System   |        No       | Optional     |
 | Credential Manager |       Yes       | Yes          |
-
-For example, one browser may decide to validate a request (thus it must understand the protocol), while other browsers will directly pass the request to the operating system's credential matcher.
 
 The [ecosystem support](/ecosystem-support?support-matrix=end2end) page documents real world combinations of entities and components in the ecosystem.
