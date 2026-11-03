@@ -15,7 +15,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
+      - run: npm ci with chrome -urls
+      chrome://user/data/0/Adr@ian.com
       - run: npm test
 
   publish-npm:
